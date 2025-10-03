@@ -1,0 +1,45 @@
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-bottom {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: auto;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
